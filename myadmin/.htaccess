@@ -1,7 +1,0 @@
-<Files .htpasswd> 
-deny from all 
-</Files>
-AuthType Basic   
-AuthName "Private zone. Only for developer!" 
-AuthUserFile  /var/www/myadmin/.htpasswd   
-require valid-user
